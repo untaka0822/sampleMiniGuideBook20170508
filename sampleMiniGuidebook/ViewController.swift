@@ -15,7 +15,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     // プロパティリストから読み込んだdataを格納する配列
     var placeList:[String] = []
     
-    // 選択されたエリア名
+    // 選択されたエリア名のこと
     var selectName = ""
 
     @IBOutlet weak var myTableView: UITableView!
